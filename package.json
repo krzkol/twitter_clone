@@ -1,0 +1,20 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "description": "Twitter clone, written in React, Flux and Rails",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krzysztof Kołek",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^6.2.2",
+    "events": "^1.1.0",
+    "flux": "^2.1.1"
+  },
+  "devDependencies": {}
+}
