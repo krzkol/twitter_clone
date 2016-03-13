@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Link } from 'react-router';
+import { browserHistory } from 'react-router'
 import Index from './components/Index';
 import Follow from './components/Follow';
 
@@ -16,7 +17,7 @@ let documentReady = () => {
   let reactNode = document.getElementById('react');
   if(reactNode) {
     ReactDOM.render(
-      <Router>
+      <Router history={browserHistory}>
         <Route component={App}>
           <Route path="/" component={Index}/>
           <Route path="/follow" component={Follow}/>

@@ -102,7 +102,7 @@
 	  if (reactNode) {
 	    _reactDom2.default.render(_react2.default.createElement(
 	      _reactRouter.Router,
-	      null,
+	      { history: _reactRouter.browserHistory },
 	      _react2.default.createElement(
 	        _reactRouter.Route,
 	        { component: App },
